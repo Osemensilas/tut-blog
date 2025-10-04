@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: max-content;
+    width: 100vw;
+    overflow-x: hidden;
+    /* font-family: "Indie Flower", cursive; */
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+.btn{
+   padding: 10px 25px;
+   border-radius: 50px;
+   background: #ff0000;
+   color: #ffffff;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: #810404;
+}

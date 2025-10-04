@@ -1,0 +1,36 @@
+.header{
+    position: relative;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0 40px;
+}
+
+.navigation-container{
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list{
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-item a{
+    color: #ffffff;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 30px;
+}
