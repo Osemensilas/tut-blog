@@ -72,9 +72,14 @@
 // })
 
 const btn = document.querySelector('.hero-cta');
-//const btn = document.getElementsByClassName('hero-cta');
-//const btn = document.getElementsByTagName('button');
+const blogger = document.querySelector('.blogger');
 
 btn.addEventListener('click', function(){
-    
+    let newName = "Grey Aisha";
+
+    if (blogger.innerHTML === newName){
+        newName = "Monica Grey";
+    }
+
+    blogger.innerHTML = newName;
 })
